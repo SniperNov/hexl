@@ -1,0 +1,1 @@
+/usr/local/bin/gcc-13 -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/list_cpu_features.dir/src/utils/list_cpu_features.c.o -o list_cpu_features  lib/libcpu_features.a 

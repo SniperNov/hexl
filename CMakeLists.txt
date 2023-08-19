@@ -9,6 +9,11 @@ include(CheckCCompilerFlag)
 include(CheckCXXCompilerFlag)
 include(CMakePackageConfigHelpers)
 
+# set(OpenMP_C_FLAGS "-fopenmp")
+# set(OpenMP_CXX_FLAGS "-fopenmp")
+# set(OpenMP_C_LIB_NAMES "gomp")
+# set(OpenMP_CXX_LIB_NAMES "gomp")
+
 set(HEXL_CMAKE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake/hexl")
 list(APPEND CMAKE_MODULE_PATH "${HEXL_CMAKE_PATH}")
 include(hexl-util)
@@ -53,12 +58,14 @@ set(CMAKE_INSTALL_RPATH "\$ORIGIN")
 #------------------------------------------------------------------------------
 # Compiler options...
 #------------------------------------------------------------------------------
+#twy
+option(MY_OPENMP "Enable multithreading" ON)
 
 option(HEXL_BENCHMARK "Enable benchmarking" ON)
 option(HEXL_COVERAGE "Enables coverage for unit tests" OFF)
 option(HEXL_DOCS "Enable documentation building" OFF)
 option(HEXL_EXPERIMENTAL "Enable experimental features" OFF)
-option(HEXL_SHARED_LIB "Generate a shared library" OFF)
+option(HEXL_SHARED_LIB "Generate a shared library" ON)
 option(HEXL_TESTING "Enables unit-tests" ON)
 option(HEXL_TREAT_WARNING_AS_ERROR "Treat all compile-time warnings as errors" OFF)
 
@@ -66,6 +73,8 @@ if (NOT HEXL_FPGA_COMPATIBILITY)
     set(HEXL_FPGA_COMPATIBILITY "0" CACHE INTERNAL "Set FPGA compatibility mask" FORCE)
 endif()
 
+#twy
+message(STATUS "OpenMP_OPTION:                 ${MY_OPENMP}")
 message(STATUS "CMAKE_BUILD_TYPE:              ${CMAKE_BUILD_TYPE}")
 message(STATUS "CMAKE_C_COMPILER:              ${CMAKE_C_COMPILER}")
 message(STATUS "CMAKE_CXX_COMPILER:            ${CMAKE_CXX_COMPILER}")
@@ -79,8 +88,14 @@ message(STATUS "HEXL_TESTING:                  ${HEXL_TESTING}")
 message(STATUS "HEXL_TREAT_WARNING_AS_ERROR:   ${HEXL_TREAT_WARNING_AS_ERROR}")
 message(STATUS "HEXL_FPGA_COMPATIBILITY:       ${HEXL_FPGA_COMPATIBILITY}")
 
+
 hexl_check_compiler_version()
 hexl_add_compiler_definition()
+
+#twy
+if (OpenMP_OPTION)
+  add_compile_options(-fopenmp)
+endif()
 
 if (HEXL_COVERAGE)
   if (NOT HEXL_USE_GNU)
@@ -99,6 +114,8 @@ endif()
 if (HEXL_TREAT_WARNING_AS_ERROR)
   add_compile_options(-Werror)
 endif()
+
+
 
 set(HEXL_ROOT_DIR ${CMAKE_CURRENT_LIST_DIR})
 set(HEXL_SRC_ROOT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/hexl)
@@ -182,6 +199,15 @@ if (HEXL_DEBUG)
     add_subdirectory(cmake/third-party/easylogging)
   endif()
 endif()
+
+
+
+find_package(OpenMP)
+if (OpenMP_FOUND)
+    message(STATUS "OpenMP_CXX_INCLUDE_DIRS: ${OpenMP_CXX_INCLUDE_DIRS}")
+    message(STATUS "OpenMP_CXX_LIBRARIES: ${OpenMP_CXX_LIBRARIES}")
+endif()
+
 
 #------------------------------------------------------------------------------
 # Subfolders...

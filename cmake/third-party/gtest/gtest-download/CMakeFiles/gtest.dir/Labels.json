@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest-complete.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-build.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-configure.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-download.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-install.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-patch.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-test.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest"
+		],
+		"name" : "gtest"
+	}
+}

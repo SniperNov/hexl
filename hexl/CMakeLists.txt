@@ -119,6 +119,13 @@ install(DIRECTORY ${HEXL_INC_ROOT_DIR}/
         PATTERN "*.hpp"
         PATTERN "*.h")
 
+#twy
+find_package(OpenMP)
+if (OpenMP_CXX_FOUND)
+    target_link_libraries(hexl PUBLIC OpenMP::OpenMP_CXX)
+endif()
+
+
 if (HEXL_SHARED_LIB)
     target_link_libraries(hexl PRIVATE cpu_features)
     if (HEXL_DEBUG)

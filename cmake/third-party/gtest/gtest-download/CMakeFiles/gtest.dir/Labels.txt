@@ -1,0 +1,14 @@
+# Target labels
+ gtest
+# Source files and their labels
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/CMakeFiles/gtest-complete.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-build.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-configure.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-download.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-install.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-mkdir.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-patch.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-test.rule
+/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-download/gtest-prefix/src/gtest-stamp/gtest-update.rule

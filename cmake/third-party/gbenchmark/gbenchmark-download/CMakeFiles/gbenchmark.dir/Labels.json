@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/CMakeFiles/gbenchmark"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/CMakeFiles/gbenchmark.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/CMakeFiles/gbenchmark-complete.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-build.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-configure.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-download.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-install.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-mkdir.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-patch.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-test.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-download/gbenchmark-prefix/src/gbenchmark-stamp/gbenchmark-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gbenchmark"
+		],
+		"name" : "gbenchmark"
+	}
+}

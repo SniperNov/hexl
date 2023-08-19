@@ -1,0 +1,357 @@
+[
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include/internal -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=gnu99 -o CMakeFiles/utils.dir/src/filesystem.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/filesystem.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/filesystem.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include/internal -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=gnu99 -o CMakeFiles/utils.dir/src/stack_line_reader.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/stack_line_reader.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/stack_line_reader.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include/internal -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=gnu99 -o CMakeFiles/utils.dir/src/string_view.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/string_view.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/string_view.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHAVE_SYSCTLBYNAME -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include/internal -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=gnu99 -o CMakeFiles/cpu_features.dir/src/cpuinfo_x86.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/cpuinfo_x86.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/cpuinfo_x86.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHAVE_DLFCN_H -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include/internal -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=gnu99 -o CMakeFiles/unix_based_hardware_detection.dir/src/hwcaps.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/hwcaps.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/hwcaps.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-build",
+  "command": "/usr/local/bin/gcc-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -std=gnu99 -o CMakeFiles/list_cpu_features.dir/src/utils/list_cpu_features.c.o -c /Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/utils/list_cpu_features.c",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/src/utils/list_cpu_features.c"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-build/googlemock",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/include -I/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/src/gmock-all.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-build/googlemock",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/src/gmock_main.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-build/googletest",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -I/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/src/gtest-all.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-build/googletest",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/src/gtest_main.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/benchmark.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_api_internal.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_api_internal.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/benchmark_name.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_name.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_name.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/benchmark_register.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_register.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_register.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/benchmark_runner.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_runner.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_runner.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/colorprint.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/colorprint.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/colorprint.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/commandlineflags.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/commandlineflags.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/commandlineflags.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/complexity.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/complexity.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/complexity.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/console_reporter.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/console_reporter.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/console_reporter.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/counter.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/counter.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/counter.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/csv_reporter.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/csv_reporter.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/csv_reporter.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/json_reporter.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/json_reporter.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/json_reporter.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/perf_counters.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/perf_counters.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/perf_counters.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/reporter.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/reporter.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/reporter.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/sleep.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/sleep.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/sleep.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/statistics.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/statistics.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/statistics.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/string_util.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/string_util.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/string_util.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/sysinfo.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/sysinfo.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/sysinfo.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark.dir/timers.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/timers.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/timers.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-build/src",
+  "command": "/usr/local/bin/g++-13 -DHAVE_POSIX_REGEX -DHAVE_STD_REGEX -DHAVE_STEADY_CLOCK -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src   -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wstrict-aliasing -O3 -DNDEBUG  -Werror  -Wno-deprecated -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -std=c++17 -o CMakeFiles/benchmark_main.dir/benchmark_main.cc.o -c /Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_main.cc",
+  "file": "/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/src/benchmark_main.cc"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-mult-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-mult-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-mult-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-reduce-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-reduce-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-reduce-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-add-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-add-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-add-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-fma-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-fma-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-fma-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-cmp-add.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-cmp-add.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-cmp-add.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/eltwise/eltwise-cmp-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/hexl/eltwise/eltwise-cmp-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/eltwise/eltwise-cmp-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/ntt/ntt-internal.cpp.o -c /Users/babe/Desktop/hexl/hexl/ntt/ntt-internal.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/ntt/ntt-internal.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/ntt/ntt-radix-2.cpp.o -c /Users/babe/Desktop/hexl/hexl/ntt/ntt-radix-2.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/ntt/ntt-radix-2.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/ntt/ntt-radix-4.cpp.o -c /Users/babe/Desktop/hexl/hexl/ntt/ntt-radix-4.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/ntt/ntt-radix-4.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/hexl",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -Dhexl_EXPORTS -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -Wall -Wconversion -Wshadow -pedantic -Wextra -Wno-unknown-pragmas -march=native -O3 -fomit-frame-pointer -Wno-sign-conversion -Wno-implicit-int-conversion -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/hexl.dir/number-theory/number-theory.cpp.o -c /Users/babe/Desktop/hexl/hexl/number-theory/number-theory.cpp",
+  "file": "/Users/babe/Desktop/hexl/hexl/number-theory/number-theory.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/main.cpp.o -c /Users/babe/Desktop/hexl/benchmark/main.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/main.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-ntt.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-ntt.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-ntt.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-add-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-add-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-add-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-cmp-add.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-cmp-add.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-cmp-add.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-cmp-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-cmp-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-cmp-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-fma-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-fma-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-fma-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-mult-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-mult-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-mult-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/benchmark",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -I/Users/babe/Desktop/hexl/benchmark -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/gbenchmark/gbenchmark-src/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -O3 -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/bench_hexl.dir/bench-eltwise-reduce-mod.cpp.o -c /Users/babe/Desktop/hexl/benchmark/bench-eltwise-reduce-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/benchmark/bench-eltwise-reduce-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/main.cpp.o -c /Users/babe/Desktop/hexl/test/main.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/main.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-aligned-vector.cpp.o -c /Users/babe/Desktop/hexl/test/test-aligned-vector.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-aligned-vector.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-number-theory.cpp.o -c /Users/babe/Desktop/hexl/test/test-number-theory.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-number-theory.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-add-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-add-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-add-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-cmp-add.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-cmp-add.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-cmp-add.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-cmp-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-cmp-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-cmp-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-fma-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-fma-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-fma-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-mult-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-mult-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-mult-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-reduce-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-reduce-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-reduce-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-sub-mod.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-sub-mod.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-sub-mod.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-ntt.cpp.o -c /Users/babe/Desktop/hexl/test/test-ntt.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-ntt.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-util-internal.cpp.o -c /Users/babe/Desktop/hexl/test/test-util-internal.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-util-internal.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-avx512-util.cpp.o -c /Users/babe/Desktop/hexl/test/test-avx512-util.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-avx512-util.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-add-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-add-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-add-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-cmp-add-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-cmp-add-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-cmp-add-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-cmp-sub-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-cmp-sub-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-cmp-sub-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-fma-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-fma-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-fma-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-mult-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-mult-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-mult-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-reduce-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-reduce-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-reduce-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-eltwise-sub-mod-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-eltwise-sub-mod-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-eltwise-sub-mod-avx512.cpp"
+},
+{
+  "directory": "/Users/babe/Desktop/hexl/test",
+  "command": "/usr/local/bin/g++-13 -DHEXL_HAS_AVX256 -DSTACK_LINE_READER_BUFFER_SIZE=1024 -I/Users/babe/Desktop/hexl/test -I/Users/babe/Desktop/hexl/test/include -I/Users/babe/Desktop/hexl/hexl -I/Users/babe/Desktop/hexl/hexl/include -I/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-src/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest/include -isystem /Users/babe/Desktop/hexl/cmake/third-party/gtest/gtest-src/googletest -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIE -Wall -Wextra -march=native -Wno-unknown-warning -Wno-unknown-warning-option -fopenmp -std=c++17 -o CMakeFiles/unit-test.dir/test-ntt-avx512.cpp.o -c /Users/babe/Desktop/hexl/test/test-ntt-avx512.cpp",
+  "file": "/Users/babe/Desktop/hexl/test/test-ntt-avx512.cpp"
+}
+]

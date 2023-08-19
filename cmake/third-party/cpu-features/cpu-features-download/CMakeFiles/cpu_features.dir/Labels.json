@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/CMakeFiles/cpu_features"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/CMakeFiles/cpu_features.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/CMakeFiles/cpu_features-complete.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-build.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-configure.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-download.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-install.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-mkdir.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-patch.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-test.rule"
+		},
+		{
+			"file" : "/Users/babe/Desktop/hexl/cmake/third-party/cpu-features/cpu-features-download/cpu_features-prefix/src/cpu_features-stamp/cpu_features-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"cpu_features"
+		],
+		"name" : "cpu_features"
+	}
+}
